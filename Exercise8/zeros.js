@@ -1,14 +1,16 @@
 function zeros (arrayUnordered){
-    for(let i=0; i<arrayUnordered.length;i++){
-        if(arrayUnordered[i]==0){
-            let index = arrayUnordered.indexOf(arrayUnordered[i]);
-            for(let j=index; j<arrayUnordered.length; j++){
-                arrayUnordered[j] = arrayUnordered[j+1];
+    let arrayU = arrayUnordered;
+    let arrayUSize = arrayU.length;
+    for(let i=0; i<arrayUSize;i++){
+        if(arrayU[i]==0){
+            let index = arrayU.indexOf(arrayU[i]);
+            for(let j=index; j<arrayUSize; j++){
+                arrayU[j] = arrayU[j+1];
             }
-            arrayUnordered[arrayUnordered.length-1] = 0;
+            arrayU[arrayUSize-1] = 0;
         }
     }
-    return arrayUnordered;
+    return arrayU;
 }
 
 let array = [2,0,4,5,0,2,0,0,3];
