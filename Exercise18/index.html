@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table of candidates</title>
 </head>
 <body>
+    <h1>TABLE OF CANDIDATES</h1>
+    <section id="wrapper">
+        <article>
+            <h2>Add</h2>
+            <form class="form">
+                <input type="text" name="firstname" placeholder="Write firstname" required>
+                <br>
+                <input type="text" name="lastname" placeholder="Write lastname" required>
+                <br>
+                <input type="text" name="phonenumber" placeholder="Write phone" required>
+                <br>
+                <input type="submit" value="Send">
+                <input type="hidden" name="id">
+            </form>
+        </article>
+        <article>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Phone number</th>
+                        <th>#Add</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </article>
+    </section>
+
+    <template id="template">
+        <tr>
+            <td class="firstname"></td>
+            <td class="lastname"></td>
+            <td class="phonenumber"></td>
+            <td>
+                <a href="#" class="edit">Edit</a>
+                <a href="#" class="delete">delete</a>
+            </td>
+        </tr>
+    </template>
+
     <script src="main.js"></script>
 </body>
 </html>
