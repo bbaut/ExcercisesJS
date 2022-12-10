@@ -14,15 +14,3 @@ arrayElementsP.forEach((element,index) => {
         })
     }
 })
-
-// elementShowed = event => {
-//     console.log(event.target.id);
-// }
-
-// let visibility = window.getComputedStyle(element.nextElementSibling,null).getPropertyValue("visibility");
-//             if (visibility == "hidden"){
-//                 element.nextElementSibling.style.visibility = "visible";
-//             }
-//             else {
-//                 element.nextElementSibling.style.visibility = "hidden";
-//             }

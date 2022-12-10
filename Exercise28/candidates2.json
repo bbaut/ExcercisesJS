@@ -1,0 +1,27 @@
+{
+    "candidates": [
+      {
+        "id": 1,
+        "firstname": "Juan",
+        "lastname": "Martinez",
+        "phone": "32 34 5342"
+      },
+      {
+        "id": 2,
+        "firstname": "Carlos",
+        "lastname": "Martinez",
+        "phone": "32 34 5342"
+      },
+      {
+        "id": 3,
+        "firstname": "Elías",
+        "lastname": "Díaz",
+        "phone": "32 34 5342"
+      },
+      {
+        "id": 4,
+        "firstname": "Jesus",
+        "lastname": "Ariza",
+        "phone": "32 34 5342"
+      }]
+}

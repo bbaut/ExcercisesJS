@@ -14,10 +14,10 @@ log(false);
 // no: because v takes a boolean value of false
 
 log('true');
-// ok
+// ok: because the boolean value of strings are true
 
 log('false');
-// ok
+// ok: we have here the same as above
 
 log({});
 // ok: because every object is truthy
